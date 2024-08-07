@@ -294,7 +294,7 @@ const pieChartValues = computed(() => {
     'Customer - Receipts and refunds': 0,
     'Customer - Issues with your purchase': 0,
     'Customer - Feature Requests': 0,
-    'Seller - Feature Requests': 0
+    'Creator - Feature Requests': 0
   };
 
   for (const message of messages.value) {
@@ -319,7 +319,7 @@ const pieChartValues = computed(() => {
     counts['Customer - Receipts and refunds'],
     counts['Customer - Issues with your purchase'],
     counts['Customer - Feature Requests'],
-    counts['Seller - Feature Requests']
+    counts['Creator - Feature Requests']
   ];
 });
 
@@ -339,7 +339,7 @@ function updateChartData() {
       'Customer - Receipts and refunds',
       'Customer - Issues with your purchase',
       'Customer - Feature Requests',
-      'Seller - Feature Requests'
+      'Creator - Feature Requests'
     ],
     datasets: [
       {
