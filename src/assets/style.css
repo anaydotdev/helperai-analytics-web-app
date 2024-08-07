@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#app {
+    /* max-width: 1280px; */
+    margin: 0 auto;
+    /* padding: 1.5rem; */
+    font-weight: normal;
+  }
+
+  .body-font {
+    @apply font-secondary text-htext text-sm font-light;
+  }
+
+
+  @layer base {
+    :root {
+      /* ... */
+      --vis-tooltip-background-color: none !important;
+      --vis-tooltip-border-color: none !important;
+      --vis-tooltip-text-color: none !important;
+      --vis-tooltip-shadow-color: none !important;
+      --vis-tooltip-backdrop-filter: none !important;
+      --vis-tooltip-padding: none !important;
+
+      --vis-primary-color: var(--primary);
+      /* change to any hsl value you want */
+      --vis-secondary-color: 160 81% 40%;
+      --vis-text-color: var(--muted-foreground);
+    }
+}
