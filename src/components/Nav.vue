@@ -107,7 +107,7 @@
                 <div
                   class="body-font flex justify-between border-b-[1px] border-gray-300 p-4"
                 >
-                  <span>Open</span>
+                  <span>{{ messages.length }} Open</span>
                   <span>Newest</span>
                 </div>
                 <div
